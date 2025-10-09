@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.section
-      id="home"
+      id="hero"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
