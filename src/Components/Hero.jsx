@@ -43,8 +43,8 @@ const Hero = () => {
         </div>
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/177-FAEtPRzLTxtGmNpY0R3p-NOlzi4gO/view?usp=sharing"
-          
+          href="https://drive.google.com/file/d/1tX-u_-5769mr-0Mw6qSc0OxbMp2S0L4I/view?usp=sharing"
+
           className="inline-block px-6 py-3  bg-purple-700 text-white font-medium rounded-lg shadow-md hover:bg-purple-500 transition mb-6"
         >
           Download Resume
@@ -65,12 +65,16 @@ const Hero = () => {
       </div>
 
       {/* Right side: Photo */}
-      <div className="flex-1 flex justify-center md:justify-end">
-        <img
-          src="/images/Hero.png"
-          alt="Rifat's image"
-          className="w-64 mb-12 p-1 h-64 md:w-96 md:h-96 rounded-full object-cover  border-2 border-purple-700 shadow-2xl"
-        />
+      <div className=" flex-1 flex justify-center md:justify-end ">
+       
+          <motion.img
+            src="/images/Hero.png"
+            alt="Rifat"
+            className=" w-64 h-64 md:w-96 p-1 md:h-96 rounded-full object-cover border-2 border-purple-600 shadow-2xl"
+            animate={{ y: [0, -10, 0] }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+          />
+       
       </div>
     </motion.section>
   );

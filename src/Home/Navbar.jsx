@@ -8,7 +8,7 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-md">
+    <nav className="fixed  w-full z-50 bg-white/80 backdrop-blur-md shadow-md">
       <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
 
         <RouterLink to="/" className="text-2xl font-bold text-indigo-600">
@@ -24,7 +24,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               offset={-80}
-              className="cursor-pointer hover:text-purple-600"
+              className="cursor-pointer  hover:text-purple-600"
             >
               About
             </Link>

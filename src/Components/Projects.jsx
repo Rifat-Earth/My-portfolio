@@ -7,7 +7,7 @@ const Projects = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="py-16 bg-gray-50">
+            className="py-16 ">
             <motion.div initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }} className="max-w-6xl mx-auto px-6 text-center">
@@ -39,7 +39,7 @@ const Projects = () => {
                             </h3>
                             <p className="text-gray-600 mb-4">
                                 A full-stack MERN project for biodata matching and contact
-                                requests using Stripe payment integration.
+                                requests using Stripe payment integration,premium memberships, contact requests.
                             </p>
                             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
                                 <div className="flex flex-wrap justify-center sm:justify-start gap-3">
@@ -71,11 +71,10 @@ const Projects = () => {
                         />
                         <div className="p-6 text-left">
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                                Parcel Delivery Website
+                                Service_Review_System
                             </h3>
                             <p className="text-gray-600 mb-4">
-                                A responsive React-based delivery platform with Leaflet map,
-                                region filters, and live tracking.
+                                Explore services, read & write reviews with ratings, and manage dynamic content seamlessly. Built with React and MongoDB for a responsive, user-friendly experience.
                             </p>
                             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
                                 <div className="flex flex-wrap justify-center sm:justify-start gap-3">
@@ -109,8 +108,7 @@ const Projects = () => {
                                 Next Js Product Project
                             </h3>
                             <p className="text-gray-600 mb-4">
-                                A web app for ordering and managing weekly meal boxes built with
-                                React and Tailwind CSS.
+                               Manage products efficiently with a secure NextAuth login. Fully responsive Next.js app deployed on Vercel with smooth navigation and modern UI.
                             </p>
                             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
                                 <div className="flex flex-wrap justify-center sm:justify-start gap-3">
